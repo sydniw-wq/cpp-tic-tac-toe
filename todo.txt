@@ -1,0 +1,23 @@
+In order to complete the implementation of Tic Tac Toe we need to complete these items and pieces of logic.
+
+We have the following components in the game that need to be defined to properly handle the game functionality.
+
+1. Game Board
+- managed by the board class, track the cells on the board to determine how the game is going
+
+2. Players
+- have to be able to manage the two players in the game
+- players are represented by the Player class and have their own attributes which distinguish them when playing on the same board
+
+3. Movement of Player
+- functions within the board class allow us to track player movement (check valid moves)
+- with this we can continue to update the game board for players
+
+4. Game Logic
+- TicTacToe class manages the actual logic of the game (rules to play by)
+- it handles the players turns, takes car of I/O from the players and checks for win/draw conditions
+
+5. Result
+- Board class contains function to check the board and determine if win/lose/draw conditions have been met for players
+
+**general code and information provided by Geeks for Geeks project example**
